@@ -5,4 +5,6 @@ var includePaths = [
 "bower_components/reset-css",
 "bower_components/fontawesome/scss",
 "bower_components/bourbon/app/assets/stylesheets",
-"bower_components/neat/app/assets/stylesheets"];6
+"bower_components/neat/app/assets/stylesheets"];
+var compiledCss = sassCompile(includePaths,'app.scss', 'app.css');
+ module.exports = merge(['public', compileCss]);
