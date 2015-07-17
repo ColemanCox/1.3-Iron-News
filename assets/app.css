@@ -1,0 +1,91 @@
+ html{
+    box-sizing:border-box;
+
+ }
+   *,*:before, *:after {
+      box-sizing: inherit;
+   }
+
+
+
+
+h2{
+  font-size:15px;
+  background-color:gray;
+  border:3px solid black;
+  text-align:left;
+  margin:  -8px 20px  20px;
+  float:left;
+  font-family:sans-serif;
+}
+
+
+.line1 p {
+  float:right;
+
+}
+
+.arrow{
+  height:20px;
+  width:20px;
+
+  margin:0 0 -45px -125px;
+}
+
+.arrow:hover{
+   border:2px solid black;
+  background-color:grey;
+
+
+
+}
+.line1{
+
+  background-color:grey;
+  border:3px black solid;
+  font-size:10px;}
+
+.list p {
+  margin:0 -60px -20px
+}
+
+span{
+  border:3px solid red;
+
+  background-color:black;
+  color:white;
+  padding:1px;
+  font-size:20px;
+  font-weight:bold;
+  margin:-11px -15px -10px 0;
+  float:left;
+
+}
+
+p{
+  font-family:cursive;
+  font-size:20px;
+
+  padding:20px;
+  color:red;
+  text-align:center;
+  width:auto;
+  background-color:grey;
+
+  margin:0 0 20px 0;
+
+
+}
+
+ol li:nth-child(odd) {
+  border: 5px solid gray;
+ background-color:gray;
+
+}
+
+ol li:nth-child(even){
+  border: 5px solid white;
+  background-color:white;
+  font-size:15px;
+
+}
